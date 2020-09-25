@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.197a223c.chunk.js",
-    "main.js.map": "/static/js/main.197a223c.chunk.js.map",
+    "main.css": "/static/css/main.b70207f7.chunk.css",
+    "main.js": "/static/js/main.d0423044.chunk.js",
+    "main.js.map": "/static/js/main.d0423044.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.56c69188.js",
     "runtime-main.js.map": "/static/js/runtime-main.56c69188.js.map",
-    "static/js/2.e08b9b32.chunk.js": "/static/js/2.e08b9b32.chunk.js",
-    "static/js/2.e08b9b32.chunk.js.map": "/static/js/2.e08b9b32.chunk.js.map",
+    "static/css/2.bf0413c3.chunk.css": "/static/css/2.bf0413c3.chunk.css",
+    "static/js/2.730f1eab.chunk.js": "/static/js/2.730f1eab.chunk.js",
+    "static/js/2.730f1eab.chunk.js.map": "/static/js/2.730f1eab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.88b6c8bcc1662021cce5ef0dff31fcc5.js": "/precache-manifest.88b6c8bcc1662021cce5ef0dff31fcc5.js",
+    "precache-manifest.3c3480451dc72f6afcb2637d02a53b00.js": "/precache-manifest.3c3480451dc72f6afcb2637d02a53b00.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e08b9b32.chunk.js.LICENSE.txt": "/static/js/2.e08b9b32.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/2.bf0413c3.chunk.css.map": "/static/css/2.bf0413c3.chunk.css.map",
+    "static/css/main.b70207f7.chunk.css.map": "/static/css/main.b70207f7.chunk.css.map",
+    "static/js/2.730f1eab.chunk.js.LICENSE.txt": "/static/js/2.730f1eab.chunk.js.LICENSE.txt",
+    "static/media/Arth2.jpg": "/static/media/Arth2.5a732c76.jpg",
+    "static/media/contact.png": "/static/media/contact.ce73dd68.png",
+    "static/media/email-icon.png": "/static/media/email-icon.493a4362.png",
+    "static/media/App.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/whatsapp.png": "/static/media/whatsapp.188a2786.png"
   },
   "entrypoints": [
     "static/js/runtime-main.56c69188.js",
-    "static/js/2.e08b9b32.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.197a223c.chunk.js"
+    "static/css/2.bf0413c3.chunk.css",
+    "static/js/2.730f1eab.chunk.js",
+    "static/css/main.b70207f7.chunk.css",
+    "static/js/main.d0423044.chunk.js"
   ]
 }

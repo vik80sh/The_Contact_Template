@@ -1,0 +1,22 @@
+.header-wrapper {
+    Header {
+        background-color: #d2b1ba;
+        ;
+        color: black;
+
+        nav {
+            text-decoration: none;
+            .activeRoute {
+                background-color: grey;
+                font-size: 18px;
+                border-bottom: 4px solid #e81161;
+                border-radius:10px ;
+            }
+
+            .mdl-navigation__link {
+                font-size: 16px;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+}

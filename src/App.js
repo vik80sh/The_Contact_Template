@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import ThePhotoShopHeader from './component/routerHandler/ThePhotoShopHeader';
+import { BrowserRouter} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      Vikash
+      <BrowserRouter>
+        <ThePhotoShopHeader />
+      </BrowserRouter>
     </div>
   );
 }
