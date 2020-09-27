@@ -30,7 +30,7 @@ export default class ThePhotoShopHeader extends Component {
                     </Header>
                     <Drawer title="The Photo Shop"  >
                         <Navigation onClick={() => this.hideToggle()}>
-                            <NavLink to="/" ><i class="fas fa-home"></i></NavLink >
+                            <NavLink to="/" ><i className="fas fa-home"></i></NavLink >
                             <NavLink to="/resume">Resume</NavLink >
                             <NavLink to="/projects">Projects</NavLink >
                             <NavLink to="/contact">Contact</NavLink >

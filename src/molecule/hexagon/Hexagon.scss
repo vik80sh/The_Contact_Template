@@ -1,0 +1,31 @@
+@import './../../asserts/basicStyle/base.scss';
+
+
+.hexagon {
+    width: 260px;
+    height: 260px;
+    background: rgb(107, 103, 103);
+    border-radius: 45%;
+    position: relative;
+    margin: -20px auto 50px;
+
+    @include desktopsmall {
+        width: 220px;
+        height: 220px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .inner-design {
+        position: absolute;
+        top: 20%;
+        left: 30%
+    }
+}
+.hexagon:hover {
+    @include desktopsmall {
+        margin-top: -70px;
+        background: rgb(103, 163, 143);
+        cursor: pointer;
+    }
+}

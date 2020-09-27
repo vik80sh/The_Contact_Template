@@ -1,0 +1,15 @@
+.gallary-container {
+    position: relative;
+    img {
+        max-width: 450px;
+        max-height: 560px;
+    }
+    // img:hover {
+    //     position: absolute;
+    //     top: 20%;
+    //     left: 20%;
+    //     height: auto;
+    //     width: auto;
+    //     z-index: 22;
+    // }
+}

@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
-import { desktopView, mobileView } from './../gallary/Image';
+import { desktopView, mobileView } from './../../constant';
 
 import './Home.scss';
+import { Hexagon } from './../../molecule/hexagon/Hexagon';
 
+import { Gallary } from './../../molecule/gallary/Gallary';
 export default class Home extends Component {
     state = {
         imageArray: desktopView
@@ -11,13 +13,6 @@ export default class Home extends Component {
     componentDidMount() {
         if (window.screen.width < 720)
             this.setState({ imageArray: mobileView })
-    }
-    polygon = () => {
-        return <div className="hexagon">
-                   <div className="inner-design">
-                        How You Doing ? :)
-                   </div>
-                </div>
     }
     render() {
         var settings = {
@@ -53,11 +48,11 @@ export default class Home extends Component {
                     })}
                 </Slider>
                 <div className="design-box">
-                    {this.polygon()}
-                    {this.polygon()}
-                    {this.polygon()}
+                    <Hexagon />
+                    <Hexagon />
+                    <Hexagon />
                 </div>
-
+                <Gallary />
             </div>
         );
     }
