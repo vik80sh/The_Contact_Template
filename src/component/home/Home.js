@@ -28,8 +28,8 @@ export default class Home extends Component {
             <div className="home-wrapper">
                 <Slider {...settings}>
                     {this.state.imageArray.map((data, i) => {
-                        return <div className="hero-conatainer">
-                            <div className="background-imageX" key={i}
+                        return <div className="hero-conatainer" key={i}>
+                            <div className="background-imageX"
                                 style={{
                                     backgroundImage: `url(${data})`
                                 }}>

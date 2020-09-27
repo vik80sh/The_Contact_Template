@@ -1,32 +1,40 @@
 
 import React, { Component } from 'react'
-import Gallery from 'react-grid-gallery';
+// import Gallery from 'react-grid-gallery';
+import Gallery from 'react-photo-gallery';
 
-import { desktopView, mobileView } from './../../constant'
+
+
+import { gallaryImageSet } from './../../constant'
 import './Gallary.scss'
 
 
 
 export class Gallary extends Component {
     state = {
-        imageArray : [...desktopView, ...mobileView]
+        isOpen: false,
+        image: ""
     }
-    componentDidMount() {
-        this.timer = setInterval(()=>this.shuffle(this.state.imageArray), 10000);
+    previewImage = (index) => {
+        console.log(gallaryImageSet[index])
+        this.setState({ image: gallaryImageSet[index], isOpen: true })
     }
-
-    componentWillUnmount() {
-        clearInterval(this.timer)
-    }
-    
-    shuffle = (array) => {
-        array.sort(() => Math.random() - 0.5);
-        this.setState({ imageArray: array })
+    closeAnywhere = () => {
+        if (this.state.isOpen)
+            this.setState({ isOpen: false })
     }
     render() {
         return (
-            <div className="gallary-container">
-               { this.state.imageArray.map(data => <img src={data} />)}
+            <div className="gallery-box" style={{ backgroundImage: `url(${this.state.image.src})` }} onClick={this.closeAnywhere}>
+                {!this.state.isOpen && <div className="gallary-container">
+                    <Gallery photos={gallaryImageSet } onClick={(e, { index }) => this.previewImage(index)} />
+                </div>}
+                {this.state.isOpen && <div className="image-preview-parent">
+                    <span className="close-btn" onClick={() => this.setState({ isOpen: false })} >X</span>
+                    <div className="image-preview">
+                        <img src={this.state.image.src} alt="previewimage" />
+                    </div>
+                </div>}
             </div>
         )
     }

@@ -1,15 +1,43 @@
-.gallary-container {
-    position: relative;
-    img {
-        max-width: 450px;
-        max-height: 560px;
+@import './../../asserts/basicStyle/base.scss';
+.gallery-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .image-preview-parent {
+        margin: 0 auto;
+        background-color: rgb(116, 126, 105);
+        @include desktopsmall{
+            max-width: 50%;
+        }
+        .close-btn {
+            float: right;
+            background: #ea1818;
+            border-radius: 20%;
+            width: 20px;
+            margin: 5px;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            z-index: 99;
+        }
+
+        .image-preview {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            padding: 10px;
+            @include desktopsmall{
+                padding: 20px 30px;
+                height: 600px;
+            }
+
+            img {
+               
+                height: 100%;
+                width: 100%;
+               
+            }
+        }
+
     }
-    // img:hover {
-    //     position: absolute;
-    //     top: 20%;
-    //     left: 20%;
-    //     height: auto;
-    //     width: auto;
-    //     z-index: 22;
-    // }
 }

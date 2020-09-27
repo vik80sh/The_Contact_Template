@@ -6,6 +6,7 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import RouterHandler from './RouterHandler';
 
 import './ThePhotoShopHeader.scss';
+import { ThePhotoShopFooter } from '../footer/footer';
 
 export default class ThePhotoShopHeader extends Component {
     hideToggle = () => {
@@ -39,7 +40,9 @@ export default class ThePhotoShopHeader extends Component {
                     <Content>
                         <div className="page-content" />
                         <RouterHandler />
+                        <ThePhotoShopFooter/>
                     </Content>
+                  
                 </Layout>
             </main>
         )

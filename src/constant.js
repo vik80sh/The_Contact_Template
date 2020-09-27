@@ -36,53 +36,65 @@ export const mobileView = [
     m1,m2,m3,m4,m5,m6,m7
 ]
 
-export const gallaryImage =
-[{
+export const gallaryImageSet = [
+    {
         src: d1,
-        thumbnail: d1,
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        caption: "After Rain (Jeshu John - designerspics.com)"
-},
-{
+        width: 4,
+        height: 3
+    },
+    {
+        src: m1,
+        width: 3,
+        height: 4
+    },
+    {
         src: d2,
-        thumbnail: d2,
-        thumbnailWidth: 300,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},
-
-{
+        width: 4,
+        height: 2
+    },
+    {
         src: m2,
-        thumbnail: m2,
-        thumbnailWidth: 500,
-        thumbnailHeight: 212
-},
-
-
-{
-    src: m1,
-    thumbnail: m1,
-    thumbnailWidth: 530,
-    thumbnailHeight: 300
-},
-
-
-{
-    src: m3,
-    thumbnail: m3,
-    thumbnailWidth: 450,
-    thumbnailHeight: 170
-},
-{
-    src: d4,
-    thumbnail: d4,
-    thumbnailWidth: 500,
-    thumbnailHeight: 312,
-    tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-    caption: "Boats (Jeshu John - designerspics.com)"
-},
-
-
+        width: 3,
+        height: 4
+    },
+    {
+        src: d3,
+        width: 4,
+        height: 3
+    },
+    {
+        src: m3,
+        width: 3,
+        height: 4
+    },
+    {
+        src: d4,
+        width: 4,
+        height: 2
+    },
+    {
+        src: m4,
+        width: 3,
+        height: 4
+    },
+    {
+        src: d5,
+        width: 4,
+        height: 3
+    },
+    {
+        src: m5,
+        width: 3,
+        height: 4
+    },
+    {
+        src: d6,
+        width: 4,
+        height: 2
+    },
+    {
+        src: m6,
+        width: 3,
+        height: 4
+    }
 ]
