@@ -48,11 +48,39 @@
         }
     }
 
-    .design-box {
-        @include desktopsmall {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    .middle-page {
+        background-color: blanchedalmond;
+        padding-bottom: 20px;
+
+        .design-box {
+            @include desktopsmall {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .shop-tagline {
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            color: black;
+
+            .shop-title {
+                font-size: 30px;
+            }
+        }
+
+        .conact-me {
+            text-align: center;
+
+            a {
+                padding: 15px;
+
+                @include desktopsmall {
+                    padding: 30px;
+                }
+            }
         }
     }
 

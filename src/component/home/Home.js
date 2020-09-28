@@ -6,6 +6,7 @@ import './Home.scss';
 import { Hexagon } from './../../molecule/hexagon/Hexagon';
 
 import { Gallary } from './../../molecule/gallary/Gallary';
+import { ContactMe } from '../../molecule/conactMe/contact';
 export default class Home extends Component {
     state = {
         imageArray: desktopView
@@ -47,10 +48,19 @@ export default class Home extends Component {
                         </div>
                     })}
                 </Slider>
-                <div className="design-box">
-                    <Hexagon />
-                    <Hexagon />
-                    <Hexagon />
+                <div className="middle-page">
+
+
+                    <div className="design-box">
+                        <Hexagon />
+                        <Hexagon />
+                        <Hexagon />
+                    </div>
+                    <div className="shop-tagline">
+                        <p className="shop-title">THE PHOTO SHOP</p>
+                        <p className="shop-subtitle">We Make Your Best Moments Memorable Forever</p>
+                    </div>
+                    <ContactMe/>
                 </div>
                 <Gallary />
             </div>

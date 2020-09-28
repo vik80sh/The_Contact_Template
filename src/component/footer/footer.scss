@@ -4,6 +4,7 @@
     padding: 30px 10px;
     float: left;
     width: 100%;
+    background-color: blanchedalmond;
     @include desktopsmall{
         padding: 50px
     }
@@ -19,15 +20,28 @@
             padding-left: 10px;
             font-size: 14px;
         }
+        .about-me{
+            padding-top: 20px;
+        }
         @include desktopsmall{
-            width: 50%;
+            width: 30%;
             float: left;
+        }
+    }
+    .conact-us{
+        text-align: center;
+        @include desktopsmall{
+            width: 30%;
+            float: left;
+        } 
+        p{
+            font-size: 20px;
         }
     }
     .address{
         text-align: center;
         @include desktopsmall{
-            width: 50%;
+            width: 35%;
             float: right;
         }
     }
