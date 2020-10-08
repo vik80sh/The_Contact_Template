@@ -51,11 +51,11 @@ export default class Home extends Component {
                 <div className="middle-page">
 
 
-                    <div className="design-box">
+                    {/* <div className="design-box">
                         <Hexagon />
                         <Hexagon />
                         <Hexagon />
-                    </div>
+                    </div> */}
                     <div className="shop-tagline">
                         <p className="shop-title">THE PHOTO SHOP</p>
                         <p className="shop-subtitle">We Make Your Best Moments Memorable Forever</p>

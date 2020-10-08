@@ -21,10 +21,8 @@ export default class ThePhotoShopHeader extends Component {
                         <Navigation className="text-uppercase">
                             <NavLink to="/" activeClassName="activeRoute"
                                 exact={true}>Home </NavLink >
-                            <NavLink to="/resume" activeClassName="activeRoute"
-                                exact={true}>Our Store</NavLink >
-                            <NavLink to="/projects" activeClassName="activeRoute"
-                                exact={true}>Porfolio</NavLink >
+                            <NavLink to="/catalogs" activeClassName="activeRoute"
+                                exact={true}>Catalogs</NavLink >
                             <NavLink to="/contact" activeClassName="activeRoute"
                                 exact={true} >Contact</NavLink >
                         </Navigation>
@@ -33,10 +31,8 @@ export default class ThePhotoShopHeader extends Component {
                         <Navigation onClick={() => this.hideToggle()}>
                             <NavLink to="/" activeClassName="activeRoute"
                                 exact={true}>Home </NavLink >
-                            <NavLink to="/resume" activeClassName="activeRoute"
-                                exact={true}>Our Store</NavLink >
-                            <NavLink to="/projects" activeClassName="activeRoute"
-                                exact={true}>Porfolio</NavLink >
+                            <NavLink to="/catalogs" activeClassName="activeRoute"
+                                exact={true}>Catalogs</NavLink >
                             <NavLink to="/contact" activeClassName="activeRoute"
                                 exact={true} >Contact</NavLink >
                         </Navigation>

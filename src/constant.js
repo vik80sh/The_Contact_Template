@@ -25,7 +25,22 @@ import m5 from './asserts/images/Mobile_View5.jpg';
 import m6 from './asserts/images/Mobile_View6.jpg';
 import m7 from './asserts/images/Mobile_View7.jpg';
 
-
+import p1 from './asserts/productImage/img1.jpeg';
+import p2 from './asserts/productImage/img2.jpeg';
+import p3 from './asserts/productImage/img3.jpeg';
+import p4 from './asserts/productImage/img4.jpeg';
+import p5 from './asserts/productImage/img5.jpeg';
+import p6 from './asserts/productImage/img6.jpeg';
+import p7 from './asserts/productImage/img7.jpeg';
+import p9 from './asserts/productImage/img9.jpeg';
+import p10 from './asserts/productImage/img10.jpeg';
+import p11 from './asserts/productImage/img11.jpeg';
+import p12 from './asserts/productImage/img12.jpeg';
+import p13 from './asserts/productImage/img13.jpeg';
+import p14 from './asserts/productImage/img14.jpeg';
+import p15 from './asserts/productImage/img15.jpeg';
+import p16 from './asserts/productImage/img16.jpeg';
+import p17 from './asserts/productImage/img17.jpeg';
 
 export const desktopView = [
 d1,d2,d3,d4,d5,d6,d7,d9,d10,d11,d12,d13,
@@ -35,6 +50,11 @@ d11,d12,d13,d14,d15,d16,d17,d19,d20
 export const mobileView = [
     m1,m2,m3,m4,m5,m6,m7
 ]
+
+export const productList = [
+    p1,p2,p3,p4,p5,p6,p7,p9,p10,p11,p12,p13,
+    p11,p12,p13,p14,p15,p16,p17
+] 
 
 export const gallaryImageSet = [
     {
